@@ -11,7 +11,7 @@ function App(props) {
   
   return (
     <>
-      <h1>Women's Soccer 2019! </h1>
+      <h1>Women's Soccer 2019!</h1>
       <select value={player} onChange={e => setPlayer(e.target.value)}> 
         <option value="name">Name</option>
         <option value="country">Country</option>
